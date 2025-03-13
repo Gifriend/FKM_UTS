@@ -1,50 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FKM-UNSRAT</title>
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
 
     <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-
-</head>
-<body>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header id="header" class="header fixed-top">
+      <div class="branding d-flex align-items-center">
+        <div
+          class="container position-relative d-flex align-items-center justify-content-between"
+        >
+          <a href="index.html" class="logo d-flex align-items-center">
+            <img src="assets/img/.png" alt="" class="" />
+            <h1 class="JudulSitus" style="font-size: 15px">
+              Fakultas Kesehatan Masyarakat
+              <p class="SubTitle">Universitas Sam Ratulangi</p>
+            </h1>
+          </a>
 
-        <div class="branding d-flex align-items-cente">
-    
-          <div class="container position-relative d-flex align-items-center justify-content-between">
-            <a href="index.html" class="logo d-flex align-items-center">
-              <img src="assets/img/.png" alt="" class="">
-              <h1 class="JudulSitus" style="font-size: 15px;"> Fakultas Kesehatan Masyarakat <p class="SubTitle">Universitas Sam Ratulangi
-                </p>
-              </h1>
-            </a>
-    
-            <nav id="navmenu" class="navmenu">
-              <ul>
-                <li><a href="#hero" class="active">HOME<br></a></li>
-                <li><a href="#about">Tentang Kami</a></li>
-                <li><a href="#services">Akademik</a></li>
-                <li><a href="#testimonials">Kemahasiswaan</a></li>
-                <li><a href="#portfolio">Portal Inspire</a></li>
-              </ul>
-              <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-            </nav>
-          </div>
+          <nav id="navmenu" class="navmenu">
+            <ul>
+              <li>
+                <a href="#hero" class="active">HOME<br /></a>
+              </li>
+              <li><a href="#about">Tentang Kami</a></li>
+              <li><a href="#services">Akademik</a></li>
+              <li><a href="#testimonials">Kemahasiswaan</a></li>
+              <li><a href="#portfolio">Portal Inspire</a></li>
+            </ul>
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+          </nav>
         </div>
-    
-      </header>
-    <section>
+      </div>
+    </header>
 
+    <section class="w-100 footer-bg">
+      <div class="container">
+        <footer
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top"
+        >
+          <div class="col mb-3">
+            <a
+              href="/"
+              class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"
+            >
+              <svg class="bi me-2" width="40" height="32">
+                <use xlink:href="#bootstrap"></use>
+              </svg>
+            </a>
+            <p class="text-white">© 2024</p>
+          </div>
+          <div class="col mb-3"></div>
+          <div class="col mb-3">
+            <h5 class="text-white">Tentang Kami</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white"
+                  >Visi Misi & Tujuan</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white">Sejarah</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white"
+                  >Struktur Organisasi</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white">Pimpinan</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white">Dosen</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white"
+                  >Tenaga Kependidikan</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white">Sambutan Dekan</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col mb-3">
+            <h5 class="text-white">Akademik</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white">Program Studi</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white"
+                  >Kalender Akademik</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white">Kurikulum</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col mb-3">
+            <h5 class="text-white">Lainnya</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white">Kemahasiswaan</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white">Portal Inspire</a>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
     </section>
+    <section></section>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>

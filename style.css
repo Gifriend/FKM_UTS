@@ -183,6 +183,19 @@ h6 {
 
  */
 
+/* Footer */
+.footer-bg {
+  background-color: #381873;
+}
+
+footer {
+  color: #f2f9f9 !important;
+}
+
+footer a {
+  color: #f2f9f9 !important;
+}
+
 /* Desktop Navigation */
 @media (min-width: 1200px) {
   .navmenu {
